@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<title>Exemplo 03</title>
+		<meta charset="UTF-8">
+		<style>
+			body{
+				background: #ccc;
+	<body>
+		<a href="exemplo1.html">Exemplo 1</a>
+		<h1>Olá, galera!!!</h1>
+		<h6>Olá, galera!!!</h6>
+		<p>xxx xxx xxx xxx xxx</p>
+		<p>xxx xxx xxx xxx xxx</p>
+		<br>
+		xxx xxx xxx xxx xxx
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Seleção Impar / Par</title>
+		<script>
+			
+			var r = "";
+			function impar(){
+				for(i=1;i<=15;i++){
+					valor=document.getElementById('n'+i).value;
+					restodadivisao=i%2;
+					if(restodadivisao==1){
+						r = r + i+ "\n";
+				
+				}
+				}	
+				alert(r);
+				r="";
+			}	
+			function par(){
+				for(i=1;i<=15;i++){
+					valor=document.getElementById('n'+i).value;
+					restodadivisao=i%2;
+					if(restodadivisao==0){
+						r = r + i+ "\n";
+					
+				}
+				}	
+				alert(r);
+				r="";
+			}		
+		</script>	
+	</head>
+	<body>	
+		<Center>
+			<br><br><br><h2>Exibir Números Impar/Par - aleatorio</h2><br><br><br>
+			<imput id="n1" value="5"><br>
+			<imput id="n2" value="10"><br>
+			<imput id="n3" value="20"><br>
+			<imput id="n4" value="11"><br>
+			<imput id="n5" value="15"><br>
+			<imput id="n6" value="50"><br>
+			<imput id="n7" value="38"><br>
+			<imput id="n8" value="45"><br>
+			<imput id="n9" value="18"><br>
+			<imput id="n10" value="21"><br>
+			<imput id="n11" value="55"><br>
+			<imput id="n12" value="24"><br>
+			<imput id="n13" value="57"><br>
+			<imput id="n14" value="30"><br>
+			<imput id="n15" value="4"><br>	
+			<button onClick="Impar()">Impar</button>&nbsp;&nbsp;&nbsp;
+			<button onClick="Par()">Par</button>
+		</center>
+	</body>
+</html>

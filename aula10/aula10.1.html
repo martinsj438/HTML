@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<title>Form</title>
+		<script src="aula10.2.js"></script>
+	</head>	
+	<body onLoad="A()">
+		<div class="jumbotron container-fluid text-center">
+			<h1>Formulário</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3"> </div>
+				<div class="col-md-6" style="background: #ddd">
+					<form action="javascript: Verifica();">
+						<div class="row form">
+							<div class="form-group col-md-6">
+								<label for="email">email</label>
+								<input type="email" class="form-control" id="email" placeholder="Nome" onchange="C()">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="nome">Nome</label>
+								<input class="form-control" id="nome" placeholder="nome" onchange="D()">
+							</div>
+						</div>
+						<div class="form">
+							<div class="form-group">
+								<label for="endereco">Endereço</label>
+								<input type="text" class="form-control" id="endereco" placeholder="Rua dos Alunos, nº 0E">
+							</div>
+							<div class="form-group">
+								<label for="cidade">Cidade</label>
+								<select id="cidade" class="form-control">
+									<option selected>...</option>
+									<option>Nova Iguaçu</option>
+									<option>Rio de Janeiro</option>	
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="bairro">Bairro</label>
+								<select id="bairro" class="form-control">
+									<option selected>...</option>
+									<option>Ceramica</option>
+									<option>moqueta</option>
+								</select>
+							</div>
+						</div>
+						<div class="row form">
+							<div class="form-group col-md-6 text-center">
+								<a class="btn btn-dark" href="aula110.html" role="button" style="width: 150px">Cadastrar</a>
+							</div>
+							<div class="form-group col-md-6 text-center">
+								<button type="reset" class="btn btn-dark" style="width: 150px">Limpar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3"> </div>
+			</div>
+		</div>
+	</body>
+</html>
